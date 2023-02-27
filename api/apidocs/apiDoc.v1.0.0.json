@@ -1,0 +1,278 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "version": "1.0.0",
+    "title": "Lew & Lowski APIs Document",
+    "description": "Nodejs Based API",
+    "termsOfService": "",
+    "contact": {
+      "name": "Parveen Chauhan",
+      "email": "pkumar@lewanddowski.com",
+      "url": "https://lewanddowski.com"
+    }
+  },
+
+  "servers": [
+    {
+      "url": "/api/v1.0.0/",
+      "description": "API verion"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Logitix",
+      "description": "Access to Logitix Events"
+    },
+    {
+      "name": "Tevo",
+      "description": "Access to Tevo Events"
+    },
+    {
+      "name": "Stubhub",
+      "description": "Access to Stubhub Events"
+    },
+    {
+      "name": "Gmail",
+      "description": "Access Gmail API"
+    }
+  ],
+  "paths": {
+    "/stubhub/scrapeByEventId": {
+      "post": {
+        "tags": ["Stubhub"],
+        "description": "Get All Events",
+        "operationId": "stubhubScrapeByEventId",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "required": ["eventSlug", "eventId"],
+                "properties": {
+                  "eventSlug": {
+                    "type": "string",
+                    "description": "Event Slug",
+                    "default": "dave-matthews-band-the-woodlands-tickets-5-19-2023"
+                  },
+                  "eventId": {
+                    "type": "string",
+                    "description": "Event Id",
+                    "default": "151417181"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/stubhub/addNewEvent": {
+      "post": {
+        "tags": ["Stubhub"],
+        "description": "Add New Event",
+        "operationId": "stubhubAddNewEvent",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "postData": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "performerName": {
+                          "type": "string",
+                          "description": "Performer Name",
+                          "default": "dave-matthews-"
+                        },
+                        "dateOfEvent": {
+                          "type": "string",
+                          "description": "dateOfEvent",
+                          "default": "5-19-2023"
+                        },
+                        "urlSlug": {
+                          "type": "string",
+                          "description": "urlSlug",
+                          "default": "band-the-woodlands-tickets-"
+                        },
+                        "shid": {
+                          "type": "string",
+                          "description": "shid",
+                          "default": "151417181"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/stubhub/getAllEvents": {
+      "get": {
+        "tags": ["Stubhub"],
+        "description": "Get All Events",
+        "operationId": "StubhubgetAllEvents",
+        "responses": {
+          "200": {
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/tevo/getAllEvents": {
+      "get": {
+        "tags": ["Tevo"],
+        "description": "Get All Events",
+        "operationId": "getAllEvents",
+        "responses": {
+          "200": {
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/logitix/getAllEventsFromDb": {
+      "get": {
+        "tags": ["Logitix"],
+        "description": "Get All Events",
+        "operationId": "getAllEventsFromDb",
+        "responses": {
+          "200": {
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/logitix/getEventByProductionId": {
+      "post": {
+        "tags": ["Logitix"],
+        "description": "Get Event By Production Id",
+        "operationId": "getEventByProductionId",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "required": ["productionId"],
+                "properties": {
+                  "productionId": {
+                    "type": "string",
+                    "description": "Event Production Id "
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/gmail/getAuthTokenUrl": {
+      "get": {
+        "tags": ["Gmail"],
+        "description": "Step 1",
+        "operationId": "gmailGetAuthToken",
+        "responses": {
+          "200": {
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/gmail/generateRefreshToken?code={code}&email={email}": {
+      "get": {
+        "tags": ["Gmail"],
+        "description": "Step 2",
+        "operationId": "gmailGenerateRefreshToken",
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "description": "Auth Code which you will get form previous api call",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "email",
+            "in": "path",
+            "description": "Email Id that we need for read inbox",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/gmail/readEmail?email={email}&subject={subject}": {
+      "get": {
+        "tags": ["Gmail"],
+        "description": "Step 3",
+        "operationId": "gmailReadEmail",
+        "parameters": [
+          {
+            "name": "email",
+            "in": "path",
+            "description": "Email Id that we need for read inbox",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "subject",
+            "in": "path",
+            "description": "Subject that you need to find in email inbox",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Response"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "jwt": {
+        "name": "x-access-token",
+        "type": "Api Key",
+        "scheme": "bearer",
+        "in": "header",
+        "bearerFormat": "Access Token"
+      }
+    }
+  }
+}

@@ -1,0 +1,573 @@
+2023-02-21T11:18:21.839Z [error] : TypeError : allUnreadEmails.map is not a function TypeError: allUnreadEmails.map is not a function
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:126:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-02-21T11:18:42.522Z [error] : TypeError : allUnreadEmails.map is not a function TypeError: allUnreadEmails.map is not a function
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:126:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-02-21T11:19:02.494Z [error] : TypeError : Cannot read properties of undefined (reading 'map') TypeError: Cannot read properties of undefined (reading 'map')
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:126:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-02-21T11:19:27.480Z [error] : TypeError : allUnreadEmails.map is not a function TypeError: allUnreadEmails.map is not a function
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:126:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-02-21T11:19:56.971Z [error] : TypeError : allUnreadEmails.map is not a function TypeError: allUnreadEmails.map is not a function
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:126:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-02-21T11:22:33.458Z [error] : Error : Cannot set headers after they are sent to the client Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:662:11)
+    at ServerResponse.header (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:162:21)
+    at D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:142:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 6)
+    at async readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:125:7) 
+2023-02-21T11:22:33.462Z [error] : uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:662:11)
+    at ServerResponse.header (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:162:21)
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:163:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {"error":{"code":"ERR_HTTP_HEADERS_SENT"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:399:5)\n    at ServerResponse.setHeader (node:_http_outgoing:662:11)\n    at ServerResponse.header (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:162:21)\n    at readEmail (D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\gmail.controller.js:163:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","exception":true,"date":"Tue Feb 21 2023 16:52:33 GMT+0530 (India Standard Time)","process":{"pid":7232,"uid":null,"gid":null,"cwd":"D:\\xampp\\htdocs\\john\\nodejs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v19.6.0","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\xampp\\htdocs\\john\\nodejs\\index.js"],"memoryUsage":{"rss":169115648,"heapTotal":123580416,"heapUsed":88502752,"external":22020351,"arrayBuffers":19053830}},"os":{"loadavg":[0,0,0],"uptime":17384.171},"trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":399,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":662,"method":"setHeader","native":false},{"column":10,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":10,"file":"D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\gmail.controller.js","function":"readEmail","line":163,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+2023-02-21T11:25:31.727Z [error] : TypeError : Cannot read properties of undefined (reading 'payload') TypeError: Cannot read properties of undefined (reading 'payload')
+    at D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:144:55
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 0)
+    at async readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:125:7) 
+2023-02-21T11:25:41.651Z [error] : TypeError : Cannot read properties of undefined (reading 'payload') TypeError: Cannot read properties of undefined (reading 'payload')
+    at D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:144:55
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 5)
+    at async readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:125:7) 
+2023-02-21T11:25:53.962Z [error] : Error : Cannot set headers after they are sent to the client Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:662:11)
+    at ServerResponse.header (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:162:21)
+    at D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:142:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 8)
+    at async readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:125:7) 
+2023-02-21T11:25:53.968Z [error] : uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:662:11)
+    at ServerResponse.header (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:162:21)
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:163:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {"error":{"code":"ERR_HTTP_HEADERS_SENT"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:399:5)\n    at ServerResponse.setHeader (node:_http_outgoing:662:11)\n    at ServerResponse.header (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:162:21)\n    at readEmail (D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\gmail.controller.js:163:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","exception":true,"date":"Tue Feb 21 2023 16:55:53 GMT+0530 (India Standard Time)","process":{"pid":20300,"uid":null,"gid":null,"cwd":"D:\\xampp\\htdocs\\john\\nodejs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v19.6.0","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\xampp\\htdocs\\john\\nodejs\\index.js"],"memoryUsage":{"rss":168919040,"heapTotal":123842560,"heapUsed":88212720,"external":21859903,"arrayBuffers":18893382}},"os":{"loadavg":[0,0,0],"uptime":17584.687},"trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":399,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":662,"method":"setHeader","native":false},{"column":10,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":10,"file":"D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\gmail.controller.js","function":"readEmail","line":163,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+2023-02-21T11:26:07.068Z [error] : Error : Cannot set headers after they are sent to the client Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:662:11)
+    at ServerResponse.header (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:162:21)
+    at D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:142:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 9)
+    at async readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:125:7) 
+2023-02-21T11:26:07.071Z [error] : uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:662:11)
+    at ServerResponse.header (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:162:21)
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:163:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {"error":{"code":"ERR_HTTP_HEADERS_SENT"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:399:5)\n    at ServerResponse.setHeader (node:_http_outgoing:662:11)\n    at ServerResponse.header (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:162:21)\n    at readEmail (D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\gmail.controller.js:163:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","exception":true,"date":"Tue Feb 21 2023 16:56:07 GMT+0530 (India Standard Time)","process":{"pid":15528,"uid":null,"gid":null,"cwd":"D:\\xampp\\htdocs\\john\\nodejs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v19.6.0","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\xampp\\htdocs\\john\\nodejs\\index.js"],"memoryUsage":{"rss":169476096,"heapTotal":123580416,"heapUsed":88411032,"external":22031175,"arrayBuffers":19064654}},"os":{"loadavg":[0,0,0],"uptime":17597.781},"trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":399,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":662,"method":"setHeader","native":false},{"column":10,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":10,"file":"D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\gmail.controller.js","function":"readEmail","line":163,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+2023-02-21T11:26:24.156Z [error] : Error : Cannot set headers after they are sent to the client Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:662:11)
+    at ServerResponse.header (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:162:21)
+    at D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:142:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 5)
+    at async readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:125:7) 
+2023-02-21T11:26:24.160Z [error] : uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:662:11)
+    at ServerResponse.header (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:162:21)
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:163:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {"error":{"code":"ERR_HTTP_HEADERS_SENT"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:399:5)\n    at ServerResponse.setHeader (node:_http_outgoing:662:11)\n    at ServerResponse.header (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:162:21)\n    at readEmail (D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\gmail.controller.js:163:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","exception":true,"date":"Tue Feb 21 2023 16:56:24 GMT+0530 (India Standard Time)","process":{"pid":19140,"uid":null,"gid":null,"cwd":"D:\\xampp\\htdocs\\john\\nodejs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v19.6.0","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\xampp\\htdocs\\john\\nodejs\\index.js"],"memoryUsage":{"rss":165470208,"heapTotal":123842560,"heapUsed":84690968,"external":21624992,"arrayBuffers":18661095}},"os":{"loadavg":[0,0,0],"uptime":17614.875},"trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":399,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":662,"method":"setHeader","native":false},{"column":10,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":10,"file":"D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\gmail.controller.js","function":"readEmail","line":163,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+2023-02-21T11:26:35.063Z [error] : Error : Cannot set headers after they are sent to the client Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:662:11)
+    at ServerResponse.header (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:162:21)
+    at D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:142:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 28)
+    at async readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:125:7) 
+2023-02-21T11:26:35.068Z [error] : uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:662:11)
+    at ServerResponse.header (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:162:21)
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:163:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {"error":{"code":"ERR_HTTP_HEADERS_SENT"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:399:5)\n    at ServerResponse.setHeader (node:_http_outgoing:662:11)\n    at ServerResponse.header (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:162:21)\n    at readEmail (D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\gmail.controller.js:163:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","exception":true,"date":"Tue Feb 21 2023 16:56:35 GMT+0530 (India Standard Time)","process":{"pid":25336,"uid":null,"gid":null,"cwd":"D:\\xampp\\htdocs\\john\\nodejs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v19.6.0","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\xampp\\htdocs\\john\\nodejs\\index.js"],"memoryUsage":{"rss":165130240,"heapTotal":120172544,"heapUsed":96787816,"external":21826063,"arrayBuffers":18859542}},"os":{"loadavg":[0,0,0],"uptime":17625.781},"trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":399,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":662,"method":"setHeader","native":false},{"column":10,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":10,"file":"D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\gmail.controller.js","function":"readEmail","line":163,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+2023-02-21T13:45:25.628Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T13:45:25.630Z [error] : Error : AxiosError: Request failed with status code 400 Error: AxiosError: Request failed with status code 400
+    at Object.getAccessToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:33:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:98:21) 
+2023-02-21T13:45:29.167Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T13:45:29.167Z [error] : Error : AxiosError: Request failed with status code 400 Error: AxiosError: Request failed with status code 400
+    at Object.getAccessToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:33:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:98:21) 
+2023-02-21T13:45:42.932Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T13:45:42.933Z [error] : Error : AxiosError: Request failed with status code 400 Error: AxiosError: Request failed with status code 400
+    at Object.getAccessToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:33:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:98:21) 
+2023-02-21T13:45:44.056Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T13:45:44.056Z [error] : Error : AxiosError: Request failed with status code 400 Error: AxiosError: Request failed with status code 400
+    at Object.getAccessToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:33:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:98:21) 
+2023-02-21T13:46:01.785Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T13:46:01.785Z [error] : Error : AxiosError: Request failed with status code 400 Error: AxiosError: Request failed with status code 400
+    at Object.getAccessToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:33:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:98:21) 
+2023-02-21T14:32:50.984Z [error] : MongooseError : `Model.create()` cannot run without a model as `this`. Make sure you are not calling `new Model.create()` MongooseError: `Model.create()` cannot run without a model as `this`. Make sure you are not calling `new Model.create()`
+    at _checkContext (D:\xampp\htdocs\john\nodejs\node_modules\mongoose\lib\model.js:1294:11)
+    at new create (D:\xampp\htdocs\john\nodejs\node_modules\mongoose\lib\model.js:3127:3)
+    at Object.add (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:68:7)
+    at generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:92:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-02-21T14:32:50.986Z [error] : Error : MongooseError: `Model.create()` cannot run without a model as `this`. Make sure you are not calling `new Model.create()` Error: MongooseError: `Model.create()` cannot run without a model as `this`. Make sure you are not calling `new Model.create()`
+    at Object.add (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:71:13)
+    at generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:92:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-02-21T14:33:49.108Z [error] : MongooseError : `Model.create()` cannot run without a model as `this`. Make sure you are not calling `new Model.create()` MongooseError: `Model.create()` cannot run without a model as `this`. Make sure you are not calling `new Model.create()`
+    at _checkContext (D:\xampp\htdocs\john\nodejs\node_modules\mongoose\lib\model.js:1294:11)
+    at new create (D:\xampp\htdocs\john\nodejs\node_modules\mongoose\lib\model.js:3127:3)
+    at Object.add (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:68:7)
+    at generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:92:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-02-21T14:33:49.110Z [error] : Error : MongooseError: `Model.create()` cannot run without a model as `this`. Make sure you are not calling `new Model.create()` Error: MongooseError: `Model.create()` cannot run without a model as `this`. Make sure you are not calling `new Model.create()`
+    at Object.add (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:71:13)
+    at generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:92:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-02-21T14:38:10.474Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T14:38:10.480Z [error] : Error : AxiosError: Request failed with status code 400 Error: AxiosError: Request failed with status code 400
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:62:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-21T14:39:12.466Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T14:39:12.468Z [error] : Error : AxiosError: Request failed with status code 400 Error: AxiosError: Request failed with status code 400
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:63:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-21T14:40:30.169Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T14:40:30.173Z [error] : undefined {"error":"invalid_grant","error_description":"Bad Request"}
+2023-02-21T14:40:30.174Z [error] : Error : AxiosError: Request failed with status code 400 Error: AxiosError: Request failed with status code 400
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:64:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-21T14:44:06.842Z [error] : TypeError : Cannot read properties of undefined (reading 'data') TypeError: Cannot read properties of undefined (reading 'data')
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:66:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-21T14:45:32.566Z [error] : Error : You have already the access of Gmail! If you want the latest token then please delete the app first from this (https://myaccount.google.com/u/0/permissions) link Error: You have already the access of Gmail! If you want the latest token then please delete the app first from this (https://myaccount.google.com/u/0/permissions) link
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:60:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-21T14:45:32.569Z [error] : undefined 
+2023-02-21T14:45:32.570Z [error] : Error : Error: You have already the access of Gmail! If you want the latest token then please delete the app first from this (https://myaccount.google.com/u/0/permissions) link Error: Error: You have already the access of Gmail! If you want the latest token then please delete the app first from this (https://myaccount.google.com/u/0/permissions) link
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:69:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-21T14:46:14.801Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T14:46:14.806Z [error] : undefined {"error":"invalid_grant","error_description":"Bad Request"}
+2023-02-21T14:46:14.806Z [error] : Error : AxiosError: Request failed with status code 400 Error: AxiosError: Request failed with status code 400
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:69:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-21T15:03:47.605Z [error] : uncaughtException: Lexical declaration cannot appear in a single-statement context
+D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:84
+      let result = new gmailModel(data);
+      ^^^
+
+SyntaxError: Lexical declaration cannot appear in a single-statement context
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Module.require (node:internal/modules/cjs/loader:1127:19)
+    at require (node:internal/modules/helpers:112:18)
+    at Object.<anonymous> (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:7:23)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14) {"error":{},"stack":"D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\services\\gmail.service.js:84\n      let result = new gmailModel(data);\n      ^^^\n\nSyntaxError: Lexical declaration cannot appear in a single-statement context\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1166:20)\n    at Module._compile (node:internal/modules/cjs/loader:1210:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)\n    at Module.load (node:internal/modules/cjs/loader:1103:32)\n    at Module._load (node:internal/modules/cjs/loader:942:12)\n    at Module.require (node:internal/modules/cjs/loader:1127:19)\n    at require (node:internal/modules/helpers:112:18)\n    at Object.<anonymous> (D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\gmail.controller.js:7:23)\n    at Module._compile (node:internal/modules/cjs/loader:1246:14)","exception":true,"date":"Tue Feb 21 2023 20:33:47 GMT+0530 (India Standard Time)","process":{"pid":16576,"uid":null,"gid":null,"cwd":"D:\\xampp\\htdocs\\john\\nodejs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v19.6.0","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\xampp\\htdocs\\john\\nodejs\\index.js"],"memoryUsage":{"rss":151408640,"heapTotal":112082944,"heapUsed":88858320,"external":22055687,"arrayBuffers":19238837}},"os":{"loadavg":[0,0,0],"uptime":30658.312},"trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1166,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1210,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1300,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1103,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":942,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1127,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":112,"method":null,"native":false},{"column":23,"file":"D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\gmail.controller.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1246,"method":"_compile","native":false}]}
+2023-02-21T15:07:30.781Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T15:07:30.787Z [error] : undefined {"error":"invalid_grant","error_description":"Bad Request"}
+2023-02-21T15:07:30.787Z [error] : Error : AxiosError: Request failed with status code 400 Error: AxiosError: Request failed with status code 400
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:84:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-21T15:10:13.216Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T15:10:13.219Z [error] : undefined {"error":"invalid_grant","error_description":"Bad Request"}
+2023-02-21T15:10:13.219Z [error] : Error : AxiosError: Request failed with status code 400 Error: AxiosError: Request failed with status code 400
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:84:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-21T15:12:05.682Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T15:12:05.687Z [error] : undefined {"error":"invalid_grant","error_description":"Bad Request"}
+2023-02-21T15:12:05.687Z [error] : Error : AxiosError: Request failed with status code 400 Error: AxiosError: Request failed with status code 400
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:87:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-21T15:12:56.971Z [error] : uncaughtException: await is only valid in async functions and the top level bodies of modules
+D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:50
+            await gmailModel.updateOne(
+            ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Module.require (node:internal/modules/cjs/loader:1127:19)
+    at require (node:internal/modules/helpers:112:18)
+    at Object.<anonymous> (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:7:23)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14) {"error":{},"stack":"D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\services\\gmail.service.js:50\n            await gmailModel.updateOne(\n            ^^^^^\n\nSyntaxError: await is only valid in async functions and the top level bodies of modules\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1166:20)\n    at Module._compile (node:internal/modules/cjs/loader:1210:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)\n    at Module.load (node:internal/modules/cjs/loader:1103:32)\n    at Module._load (node:internal/modules/cjs/loader:942:12)\n    at Module.require (node:internal/modules/cjs/loader:1127:19)\n    at require (node:internal/modules/helpers:112:18)\n    at Object.<anonymous> (D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\gmail.controller.js:7:23)\n    at Module._compile (node:internal/modules/cjs/loader:1246:14)","exception":true,"date":"Tue Feb 21 2023 20:42:56 GMT+0530 (India Standard Time)","process":{"pid":692,"uid":null,"gid":null,"cwd":"D:\\xampp\\htdocs\\john\\nodejs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v19.6.0","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\xampp\\htdocs\\john\\nodejs\\index.js"],"memoryUsage":{"rss":150491136,"heapTotal":111296512,"heapUsed":88350960,"external":21906142,"arrayBuffers":19089292}},"os":{"loadavg":[0,0,0],"uptime":31207.687},"trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1166,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1210,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1300,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1103,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":942,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1127,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":112,"method":null,"native":false},{"column":23,"file":"D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\gmail.controller.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1246,"method":"_compile","native":false}]}
+2023-02-21T15:14:21.130Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T15:14:21.134Z [error] : undefined {"error":"invalid_grant","error_description":"Bad Request"}
+2023-02-21T15:14:21.134Z [error] : Error : AxiosError: Request failed with status code 400 Error: AxiosError: Request failed with status code 400
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:94:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-21T15:18:18.150Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T15:18:18.151Z [error] : undefined {"error":"invalid_grant","error_description":"Bad Request"}
+2023-02-21T15:18:18.151Z [error] : Error : AxiosError: Request failed with status code 400 Error: AxiosError: Request failed with status code 400
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:73:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-21T15:19:20.108Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T15:19:20.110Z [error] : Error : 0 Error: 0
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:71:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-21T15:20:32.399Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T15:20:32.401Z [error] : Error : 0 Error: 0
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:71:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-21T15:20:33.825Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T15:20:33.825Z [error] : Error : 0 Error: 0
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:71:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-21T15:20:51.650Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T15:20:51.652Z [error] : Error : invalid_granterror_description Bad Request Error: invalid_granterror_description Bad Request
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:71:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-21T15:21:21.857Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T15:21:21.859Z [error] : Error : invalid_grant | error_description Bad Request Error: invalid_grant | error_description Bad Request
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:71:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-21T15:22:40.303Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T15:22:40.305Z [error] : Error : AxiosError: Request failed with status code 400 Error: AxiosError: Request failed with status code 400
+    at Object.getAccessToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:38:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:124:21) 
+2023-02-21T15:22:42.591Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-21T15:22:42.592Z [error] : Error : AxiosError: Request failed with status code 400 Error: AxiosError: Request failed with status code 400
+    at Object.getAccessToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:38:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:124:21) 
+2023-02-21T15:28:53.660Z [error] : TypeError : Cannot read properties of undefined (reading 'refreshToken') TypeError: Cannot read properties of undefined (reading 'refreshToken')
+    at Object.getAccessToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:21:29)
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:128:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-02-21T15:28:53.664Z [error] : Error : TypeError: Cannot read properties of undefined (reading 'refreshToken') Error: TypeError: Cannot read properties of undefined (reading 'refreshToken')
+    at Object.getAccessToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:40:13)
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:128:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-02-21T15:30:56.965Z [error] : TypeError : Cannot read properties of null (reading 'refreshToken') TypeError: Cannot read properties of null (reading 'refreshToken')
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:129:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-02-21T15:36:14.830Z [error] : Error : Please gen Auth token first Error: Please gen Auth token first
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:129:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-02-21T15:37:11.856Z [error] : Error : Please generate Auth token first from this (/api/v1.0.0/gmail/getAuthTokenUrl) API Error: Please generate Auth token first from this (/api/v1.0.0/gmail/getAuthTokenUrl) API
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:129:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-02-22T06:05:17.421Z [error] : Error : Please generate Auth token first from this (/api/v1.0.0/gmail/getAuthTokenUrl) API Error: Please generate Auth token first from this (/api/v1.0.0/gmail/getAuthTokenUrl) API
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:129:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-02-22T06:19:55.233Z [error] : Error : You have already the access of Gmail! If you want the latest token then please delete the app first from this (https://myaccount.google.com/u/0/permissions) link Error: You have already the access of Gmail! If you want the latest token then please delete the app first from this (https://myaccount.google.com/u/0/permissions) link
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:65:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-22T06:19:55.235Z [error] : Error : undefined | error_description undefined Error: undefined | error_description undefined
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:72:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-22T06:20:53.455Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-22T06:20:53.456Z [error] : Error : invalid_grant | error_description Bad Request Error: invalid_grant | error_description Bad Request
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:72:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-22T06:39:13.512Z [error] : AxiosError : Request failed with status code 400 AxiosError: Request failed with status code 400
+    at settle (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:1859:12)
+    at Unzip.handleStreamEnd (D:\xampp\htdocs\john\nodejs\node_modules\axios\dist\node\axios.cjs:2723:11)
+    at Unzip.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) 
+2023-02-22T06:39:13.513Z [error] : Error : invalid_grant | error_description Bad Request Error: invalid_grant | error_description Bad Request
+    at Object.getRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\services\gmail.service.js:72:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateRefreshToken (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\gmail.controller.js:90:26) 
+2023-02-27T05:44:17.323Z [error] : TypeError : Cannot read properties of undefined (reading 'payload') TypeError: Cannot read properties of undefined (reading 'payload')
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\googleworkspace.controller.js:53:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-02-27T05:45:35.708Z [error] : Error : ENOENT: no such file or directory, open 'D:\xampp\config\emailblocktest.json' Error: ENOENT: no such file or directory, open 'D:\xampp\config\emailblocktest.json' 
+2023-02-27T05:45:52.825Z [error] : Error : ENOENT: no such file or directory, open 'D:\config\emailblocktest.json' Error: ENOENT: no such file or directory, open 'D:\config\emailblocktest.json' 
+2023-02-27T05:46:05.819Z [error] : Error : ENOENT: no such file or directory, open 'D:\config\emailblocktest.json' Error: ENOENT: no such file or directory, open 'D:\config\emailblocktest.json' 
+2023-02-27T05:46:26.357Z [error] : Error : ENOENT: no such file or directory, open 'D:\xampp\htdocs\john\config\emailblocktest.json' Error: ENOENT: no such file or directory, open 'D:\xampp\htdocs\john\config\emailblocktest.json' 
+2023-02-27T05:46:39.680Z [error] : Error : ENOENT: no such file or directory, open 'D:\xampp\htdocs\config\emailblocktest.json' Error: ENOENT: no such file or directory, open 'D:\xampp\htdocs\config\emailblocktest.json' 
+2023-02-27T05:46:50.988Z [error] : Error : ENOENT: no such file or directory, open 'D:\xampp\htdocs\john\config\emailblocktest.json' Error: ENOENT: no such file or directory, open 'D:\xampp\htdocs\john\config\emailblocktest.json' 
+2023-02-27T05:59:42.118Z [error] : TypeError : Cannot read properties of undefined (reading 'payload') TypeError: Cannot read properties of undefined (reading 'payload')
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\googleworkspace.controller.js:50:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-02-27T06:00:48.679Z [error] : TypeError : Cannot read properties of undefined (reading 'payload') TypeError: Cannot read properties of undefined (reading 'payload')
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\googleworkspace.controller.js:51:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-02-27T06:02:13.985Z [error] : uncaughtException: Unexpected token 'for'
+D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\googleworkspace.controller.js:44
+        for (const message of allEmails) {
+        ^^^
+
+SyntaxError: Unexpected token 'for'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Module.require (node:internal/modules/cjs/loader:1127:19)
+    at require (node:internal/modules/helpers:112:18)
+    at Object.<anonymous> (D:\xampp\htdocs\john\nodejs\api\v1.0.0\routes\googleworkspace.routes.js:3:20)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14) {"error":{},"stack":"D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\googleworkspace.controller.js:44\n        for (const message of allEmails) {\n        ^^^\n\nSyntaxError: Unexpected token 'for'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1166:20)\n    at Module._compile (node:internal/modules/cjs/loader:1210:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)\n    at Module.load (node:internal/modules/cjs/loader:1103:32)\n    at Module._load (node:internal/modules/cjs/loader:942:12)\n    at Module.require (node:internal/modules/cjs/loader:1127:19)\n    at require (node:internal/modules/helpers:112:18)\n    at Object.<anonymous> (D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\routes\\googleworkspace.routes.js:3:20)\n    at Module._compile (node:internal/modules/cjs/loader:1246:14)","exception":true,"date":"Mon Feb 27 2023 11:32:13 GMT+0530 (India Standard Time)","process":{"pid":28064,"uid":null,"gid":null,"cwd":"D:\\xampp\\htdocs\\john\\nodejs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v19.6.0","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\xampp\\htdocs\\john\\nodejs\\index.js"],"memoryUsage":{"rss":149557248,"heapTotal":110637056,"heapUsed":82538824,"external":21393683,"arrayBuffers":18576833}},"os":{"loadavg":[0,0,0],"uptime":516559.375},"trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1166,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1210,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1300,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1103,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":942,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1127,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":112,"method":null,"native":false},{"column":20,"file":"D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\routes\\googleworkspace.routes.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1246,"method":"_compile","native":false}]}
+2023-02-27T06:04:47.081Z [error] : uncaughtException: missing ) after argument list
+D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\googleworkspace.controller.js:57
+              })
+               ^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Module.require (node:internal/modules/cjs/loader:1127:19)
+    at require (node:internal/modules/helpers:112:18)
+    at Object.<anonymous> (D:\xampp\htdocs\john\nodejs\api\v1.0.0\routes\googleworkspace.routes.js:3:20)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14) {"error":{},"stack":"D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\googleworkspace.controller.js:57\n              })\n               ^\n\nSyntaxError: missing ) after argument list\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1166:20)\n    at Module._compile (node:internal/modules/cjs/loader:1210:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)\n    at Module.load (node:internal/modules/cjs/loader:1103:32)\n    at Module._load (node:internal/modules/cjs/loader:942:12)\n    at Module.require (node:internal/modules/cjs/loader:1127:19)\n    at require (node:internal/modules/helpers:112:18)\n    at Object.<anonymous> (D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\routes\\googleworkspace.routes.js:3:20)\n    at Module._compile (node:internal/modules/cjs/loader:1246:14)","exception":true,"date":"Mon Feb 27 2023 11:34:47 GMT+0530 (India Standard Time)","process":{"pid":28884,"uid":null,"gid":null,"cwd":"D:\\xampp\\htdocs\\john\\nodejs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v19.6.0","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\xampp\\htdocs\\john\\nodejs\\index.js"],"memoryUsage":{"rss":149331968,"heapTotal":110374912,"heapUsed":82532616,"external":21508155,"arrayBuffers":18691305}},"os":{"loadavg":[0,0,0],"uptime":516712.468},"trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1166,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1210,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1300,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1103,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":942,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1127,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":112,"method":null,"native":false},{"column":20,"file":"D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\routes\\googleworkspace.routes.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1246,"method":"_compile","native":false}]}
+2023-02-27T06:05:10.977Z [error] : uncaughtException: missing ) after argument list
+D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\googleworkspace.controller.js:57
+              })
+               ^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Module.require (node:internal/modules/cjs/loader:1127:19)
+    at require (node:internal/modules/helpers:112:18)
+    at Object.<anonymous> (D:\xampp\htdocs\john\nodejs\api\v1.0.0\routes\googleworkspace.routes.js:3:20)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14) {"error":{},"stack":"D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\googleworkspace.controller.js:57\n              })\n               ^\n\nSyntaxError: missing ) after argument list\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1166:20)\n    at Module._compile (node:internal/modules/cjs/loader:1210:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)\n    at Module.load (node:internal/modules/cjs/loader:1103:32)\n    at Module._load (node:internal/modules/cjs/loader:942:12)\n    at Module.require (node:internal/modules/cjs/loader:1127:19)\n    at require (node:internal/modules/helpers:112:18)\n    at Object.<anonymous> (D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\routes\\googleworkspace.routes.js:3:20)\n    at Module._compile (node:internal/modules/cjs/loader:1246:14)","exception":true,"date":"Mon Feb 27 2023 11:35:10 GMT+0530 (India Standard Time)","process":{"pid":15524,"uid":null,"gid":null,"cwd":"D:\\xampp\\htdocs\\john\\nodejs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v19.6.0","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\xampp\\htdocs\\john\\nodejs\\index.js"],"memoryUsage":{"rss":149217280,"heapTotal":110899200,"heapUsed":82366776,"external":21424667,"arrayBuffers":18607817}},"os":{"loadavg":[0,0,0],"uptime":516736.359},"trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1166,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1210,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1300,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1103,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":942,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1127,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":112,"method":null,"native":false},{"column":20,"file":"D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\routes\\googleworkspace.routes.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1246,"method":"_compile","native":false}]}
+2023-02-27T06:05:17.454Z [error] : uncaughtException: Unexpected token ')'
+D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\googleworkspace.controller.js:72
+        )
+        ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Module.require (node:internal/modules/cjs/loader:1127:19)
+    at require (node:internal/modules/helpers:112:18)
+    at Object.<anonymous> (D:\xampp\htdocs\john\nodejs\api\v1.0.0\routes\googleworkspace.routes.js:3:20)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14) {"error":{},"stack":"D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\googleworkspace.controller.js:72\n        )\n        ^\n\nSyntaxError: Unexpected token ')'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1166:20)\n    at Module._compile (node:internal/modules/cjs/loader:1210:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)\n    at Module.load (node:internal/modules/cjs/loader:1103:32)\n    at Module._load (node:internal/modules/cjs/loader:942:12)\n    at Module.require (node:internal/modules/cjs/loader:1127:19)\n    at require (node:internal/modules/helpers:112:18)\n    at Object.<anonymous> (D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\routes\\googleworkspace.routes.js:3:20)\n    at Module._compile (node:internal/modules/cjs/loader:1246:14)","exception":true,"date":"Mon Feb 27 2023 11:35:17 GMT+0530 (India Standard Time)","process":{"pid":26592,"uid":null,"gid":null,"cwd":"D:\\xampp\\htdocs\\john\\nodejs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v19.6.0","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\xampp\\htdocs\\john\\nodejs\\index.js"],"memoryUsage":{"rss":149495808,"heapTotal":110637056,"heapUsed":82503808,"external":21393683,"arrayBuffers":18576833}},"os":{"loadavg":[0,0,0],"uptime":516742.843},"trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1166,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1210,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1300,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1103,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":942,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1127,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":112,"method":null,"native":false},{"column":20,"file":"D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\routes\\googleworkspace.routes.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1246,"method":"_compile","native":false}]}
+2023-02-27T06:06:54.982Z [error] : TypeError : Cannot read properties of undefined (reading 'payload') TypeError: Cannot read properties of undefined (reading 'payload')
+    at D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\googleworkspace.controller.js:51:47
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 13)
+    at async readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\googleworkspace.controller.js:43:9) 
+2023-02-27T06:09:28.516Z [error] : Error : invalid_grant: Invalid email or User ID Error: invalid_grant: Invalid email or User ID
+    at Gaxios._request (D:\xampp\htdocs\john\nodejs\node_modules\gaxios\build\src\gaxios.js:130:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async GoogleToken.requestToken (D:\xampp\htdocs\john\nodejs\node_modules\gtoken\build\src\index.js:238:23)
+    at async GoogleToken.getTokenAsync (D:\xampp\htdocs\john\nodejs\node_modules\gtoken\build\src\index.js:145:20)
+    at async JWT.refreshTokenNoCache (D:\xampp\htdocs\john\nodejs\node_modules\google-auth-library\build\src\auth\jwtclient.js:172:23)
+    at async JWT.authorizeAsync (D:\xampp\htdocs\john\nodejs\node_modules\google-auth-library\build\src\auth\jwtclient.js:153:24)
+    at async readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\googleworkspace.controller.js:33:7) 
+2023-02-27T06:10:34.438Z [error] : Error : Cannot set headers after they are sent to the client Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:662:11)
+    at ServerResponse.header (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:162:21)
+    at D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\googleworkspace.controller.js:53:36
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 20)
+    at async readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\googleworkspace.controller.js:45:9) 
+2023-02-27T06:10:34.442Z [error] : uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:662:11)
+    at ServerResponse.header (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\xampp\htdocs\john\nodejs\node_modules\express\lib\response.js:162:21)
+    at readEmail (D:\xampp\htdocs\john\nodejs\api\v1.0.0\controllers\googleworkspace.controller.js:77:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {"error":{"code":"ERR_HTTP_HEADERS_SENT"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:399:5)\n    at ServerResponse.setHeader (node:_http_outgoing:662:11)\n    at ServerResponse.header (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js:162:21)\n    at readEmail (D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\googleworkspace.controller.js:77:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","exception":true,"date":"Mon Feb 27 2023 11:40:34 GMT+0530 (India Standard Time)","process":{"pid":24568,"uid":null,"gid":null,"cwd":"D:\\xampp\\htdocs\\john\\nodejs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v19.6.0","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\xampp\\htdocs\\john\\nodejs\\index.js"],"memoryUsage":{"rss":158257152,"heapTotal":112209920,"heapUsed":89084184,"external":22095697,"arrayBuffers":19125646}},"os":{"loadavg":[0,0,0],"uptime":517059.828},"trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":399,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":662,"method":"setHeader","native":false},{"column":10,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"D:\\xampp\\htdocs\\john\\nodejs\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":10,"file":"D:\\xampp\\htdocs\\john\\nodejs\\api\\v1.0.0\\controllers\\googleworkspace.controller.js","function":"readEmail","line":77,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}

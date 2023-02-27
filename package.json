@@ -1,0 +1,43 @@
+{
+  "name": "john",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./index.js",
+    "deploy": "gcloud run deploy test-api-clients  --source=\"./\" --project=ld-data-acquisitions --platform managed --region us-central1 --allow-unauthenticated --timeout=30m --memory 2G --cpu 1 --set-env-vars \"DEPLOY_ENV=prod\" --set-env-vars \"CR_SVC_UUID=glrauppoiq\" --set-env-vars \"NODE_ENV=production\" --set-env-vars \"GCP_PROJECT=ld-data-acquisitions\" --set-env-vars \"GCLOUD_PROJECT=ld-data-acquisitions\" --quiet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.1",
+    "@googleapis/gmail": "^1.1.1",
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^1.2.6",
+    "basic-auth": "^2.0.1",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.3",
+    "google-auth-library": "^8.7.0",
+    "googleapis": "^105.0.0",
+    "imap": "^0.8.19",
+    "mailparser": "^3.6.3",
+    "mongoose": "^6.9.1",
+    "mysql2": "^3.1.0",
+    "node-imap": "^0.9.6",
+    "nodemailer": "^6.9.1",
+    "path": "^0.12.7",
+    "puppeteer": "^19.6.3",
+    "sequelize": "^6.28.0",
+    "swagger-ui-express": "^4.6.0",
+    "winston": "^3.8.2"
+  }
+}
